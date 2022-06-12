@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1211" height="522.5" viewBox="0 0 1211 522.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #ccc;
+        stroke-linejoin: round;
+        stroke-opacity: 0.2;
+        stroke-width: 1px;
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-2 {
+        fill: #fdcc00;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #a90f00;
+      }
+    </style>
+
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="6.837" dy="19.856" in="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="dropBlur"/>
+      <feFlood flood-color="#231f20" flood-opacity="0.11"/>
+      <feComposite operator="in" in2="dropBlur" result="dropShadowComp"/>
+      <feComposite in="SourceGraphic" result="shadowed"/>
+    </filter>
+  </defs>
+  <g>
+    <g style="fill: #fff; filter: url(#drop-shadow-1)">
+      <rect x="34" y="20" width="1143" height="480" id="rect-1" style="stroke: inherit; filter: none; fill: inherit" class="cls-1"/>
+    </g>
+    <use xlink:href="#rect-1" style="stroke: #ccc; filter: none; fill: none"/>
+    <path d="M-2.528,70.571 L117.470,14.000 L-2.238,14.000 L-2.238,70.744 " class="cls-2"/>
+    <path d="M0.472,64.571 L110.470,7.999 L0.762,7.999 L0.762,64.744 " class="cls-3"/>
+    <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAABIAAAAH2BAMAAAD6xeoSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAJ1BMVEUAAADMzMzMzMwjHyAjHyAjHyAjHyAjHyAjHyCcmpupDwD///8AAACJEtZcAAAACnRSTlMAHjMHBQIVEBwqtWe5HgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAATBSURBVHja7dLBSQMBFEDBgHqXVCARRPS4JUgqERYLCNawJViDLdicyZbw33WmhjkcTzDzeLh6+4WZJ4EoBCIRiEQgkj3Q+x/MCEQiEIlAJAKRCEQiEIlAJAKRCEQiEIlAJAKRCEQiEMnzspwFYuxlXS8CMfa6bZ8CMSYQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQiUAkApEIRCIQyR7oeIKZn1ugq7uvDUYEIhGIRCASgUgEIhGIRCASgUgEIhGIRCASgUgEIhGIRCASgUgEItkD3X+vMHK5BXr4WGDk/A9quv/X7h9ncwAAAABJRU5ErkJggg==" width="1211" height="25"/>
+  </g>
+</svg>
