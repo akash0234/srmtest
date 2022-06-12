@@ -192,6 +192,10 @@
    
         font-size: 16px;
     }
+    .hero-slider {
+    
+        height: calc(100vh - 250px) !important;
+    }
 }
 @media (min-width:767px) and (max-width:991px){
     .swiper-button-next{
