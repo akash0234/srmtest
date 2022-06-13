@@ -541,6 +541,7 @@ border-radius: 0 0 10px 10px;
 }
 .social ul li:hover a{
     transform: translateX(-70px);
+    pointer-events: all;
 }
   .social ul li:hover a span {
     display: block;
@@ -567,22 +568,15 @@ border-radius: 0 0 10px 10px;
     color: white;
     text-decoration: none;
     position: relative;
+    pointer-events: none;
   }
   
-  .social ul li i {
-    text-align: center;
-    margin-left: 14px;
-    color: black;
-    background-color: white;
-    padding: 10px;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
+  .social ul li svg {
+
     transform: rotate(0deg);
   }
   
-  .social ul li:hover i {
+  .social ul li:hover svg {
     transform: rotate(360deg);
     transition: all 1s;
   }
