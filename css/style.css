@@ -37,18 +37,20 @@ background-color: #06449b;
   white-space: nowrap; /* important */
   align-items: center;
   top: 0;
-  justify-content: end;
+  justify-content: space-evenly;
+  overflow-x: hidden;
 }
 .slider-text h2 span{
  color: #fc8447;
 }
 .slider-text h2 {
-  color:white;
+  color:
+  white;
   display: inline-block;
   font-size: 16px;
   font-weight: normal;
   margin: 0;
-  /* width: 100%; */
+  width: 100%;
 }
 .navbar-toggler-icon::after{
     content: '\f0c9';
