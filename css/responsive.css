@@ -124,6 +124,7 @@
     .cta-footer .button-div, .cta-footer button{
         transform: skew(0);
         font-size: 24px !important;
+        margin: auto;
     }
     .site-work-links a {
         padding: 0 5px;
@@ -165,6 +166,9 @@
     .hero-slider {
     
         height: calc(100vh - 250px) !important;
+    }
+    .cta-footer{
+        text-align: center;
     }
 
 }
