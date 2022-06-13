@@ -105,7 +105,15 @@
 
     </header>
     <main>
+     
       <section class="banner hero-slider hero-style">
+        <div class="slider-text">
+    
+          <h2> <span>Announcements:    &nbsp;&nbsp;&nbsp; &nbsp;</span> Exam Results: Law - LLM Trimester-II (AY 2021-2022) I Exam Registration Process : END TERM EXAM - MAY 2022 (OFFLINE) (Even Sem 2, 4, 6, 8, 10: AY 2021-2022 
+          </h2>
+         
+        </div>
+        
         <div class="swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -710,6 +718,7 @@
     <script src="js/all.min.js"></script>
     
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/anime.min.js"></script>
 <script>
   var swiper = new Swiper('.blog-slider', {
       spaceBetween: 30,
@@ -900,6 +909,17 @@
         }
       }
     );
+    </script>
+    <script>
+      let elt = document.querySelectorAll('.slider-text > *')
+
+        anime({
+          targets: elt,
+          translateX: '-100%',
+          duration: 12000,
+          easing: 'linear',
+          loop: true
+        });
     </script>
 </body>
 </html>

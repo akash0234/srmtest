@@ -25,6 +25,31 @@ background-color: #06449b;
     max-width: 90%;
 }
 /*Navbar*/
+
+.slider-text {
+  width: 100%;
+  background-color: #0000008f;
+  padding: 1.2em 0;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 2;
+  white-space: nowrap; /* important */
+  align-items: center;
+  top: 0;
+  justify-content: end;
+}
+.slider-text h2 span{
+ color: #fc8447;
+}
+.slider-text h2 {
+  color:white;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  /* width: 100%; */
+}
 .navbar-toggler-icon::after{
     content: '\f0c9';
     font-family: 'Font Awesome 5 Pro';
