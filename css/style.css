@@ -697,7 +697,7 @@ border-radius: 0 0 10px 10px;
   }
   
   .selected-item:after {
-    font-family: FontAwesome;
+    font-family: 'Font Awesome 5 Pro';
     content: "\f107";
     font-size: 20px;
     color: #000;
